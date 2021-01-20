@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(white, beige);
+  font-family: arial;
+}
+h1{
+  font-size: 50pt;
+  color: #2d142c;
+  text-shadow: 4px 4px #ee4540;
+}
+table {
+  text-align: center;
+  width: 80%;
+}
+h2{
+  font-size: 30pt;
+}
+hr{
+  color: #2d142c;
+  border-style:dotted none none;
+  border-width: 5px;
+  border-color: grey;
+  width: 5%;
+}
+.container{
+  text-align: center;
+  margin-top: 30px;
+}
+.hea{
+  transition-delay:0.8s
+}
+.hea1{
+  width: 150px;
+  margin-top: 50px;
+  transition: 0.8s
+}
+.hea1:hover{
+  width: 180px;
+  margin-top: 35px;
+  transition: 0.8s;
+}
+.hea1:hover::before{
+  text-align: center;
+  margin-top: 30px;
+}
+.hea1:hover::after{
+  width: 150px;
+  margin-top: 30px;
+  transition: 0.8s;
+}
+button{
+  text-align: center;
+  color: #2d142c;
+  background-color: #ee4540;
+  padding: 7px 50px;
+}
+.btn{
+  margin-top: 30px;
+  transition: 0.8s;
+}
+.btn1{
+  border: 1px solid #2d142c;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn1:hover{
+  background-color: #c72c41;
+  color: white;
+}
+.btn1:hover::before{
+  text-align: center;
+  color: white;
+  background-color: #2d142c;
+  padding: 7px 50px;
+  transition: 0.8s;
+}
+.btn2{
+  background-color: #2d142c;
+  color: #ee4540;
+  border-radius: 10px;
+}
+.btn2:hover{
+  background-color: white;
+  color: #2d142c;
+  transition: 0.8s;
+}
+.btn2:hover::before{
+  background-color: #2d142c;
+  color: #ee4540;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.btn2:hover::after{
+  background-color: #2d142c;
+  color: #ee4540;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.prim{
+  width: 300px;
+}
+.desc{
+  background: #2d142c;
+}
+.desc1{
+  text-shadow: 2px 2px white;
+  color: #ee4540;
+}
+.desc2{
+  font-size: 15pt;
+  color: white;
+  text-shadow: 1px 1px #c72c41;
+}
+.packs{
+  color: #2d142c;
+  border-radius: 46px;
+  padding: 30px 1px;
+  transition:0.8s;
+}
+.pack1{
+  background-color: white;
+  width: 300px;
+}
+.pack1:hover{
+  width: 315px;
+  background-color: #2d142c;
+  transition: 0.8s;
+}
+.pack1:hover::before{
+  width:300px;
+  transition: 0.8s;
+}
+.pack1:hover::after{
+  width:300px;
+  transition: 0.8s;
+}
